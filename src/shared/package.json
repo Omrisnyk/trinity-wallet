@@ -17,7 +17,8 @@
     "auditjs": "./../../node_modules/.bin/auditjs -n -l error -w whitelist.json",
     "themes:sync": "node themes/sync.js",
     "postinstall": "node debian-rebuild-realm.js",
-    "snyk-protect": "snyk protect"
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "license": "Apache-2.0 OR EPL-2.0",
   "dependencies": {
@@ -38,7 +39,8 @@
     "reselect": "^4.0.0",
     "url-parse": "^1.4.7",
     "valid-url": "^1.0.9",
-    "zxcvbn": "^4.4.2"
+    "zxcvbn": "^4.4.2",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0-beta",
@@ -65,7 +67,6 @@
     "redux-mock-store": "^1.5.1",
     "rimraf": "^2.6.3",
     "sinon": "^7.2.7",
-    "snyk": "^1.162.0",
     "svg2ttf": "^4.1.0",
     "svgicons2svgfont": "^9.0.4",
     "timekeeper": "^2.0.0"
