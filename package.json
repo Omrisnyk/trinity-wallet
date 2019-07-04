@@ -26,7 +26,8 @@
     "start:mobile": "cd src/mobile && yarn start",
     "start:styleguide": "cd src/desktop && yarn run styleguide",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect"
+    "prepare": "npm run snyk-protect",
+    "prepublish": "npm run snyk-protect"
   },
   "lint-staged": {
     "*.{js,json,css}": [
@@ -50,7 +51,7 @@
     "prettier": "^1.17.1"
   },
   "dependencies": {
-    "snyk": "^1.165.0"
+    "snyk": "^1.189.0"
   },
   "resolutions": {
     "request": ">=2.88.0",
