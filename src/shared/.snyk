@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.3
+version: v1.22.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:chownr:20180731':
@@ -11,3 +11,10 @@ patch:
   SNYK-JS-AXIOS-174505:
     - figma-parser > axios:
         patched: '2019-05-05T21:43:37.166Z'
+  SNYK-JS-LODASH-567746:
+    - react-redux > lodash:
+        patched: '2022-04-30T05:56:00.714Z'
+    - redux-persist > lodash:
+        patched: '2022-04-30T05:56:00.714Z'
+    - iota.lib.js > async > lodash:
+        patched: '2022-04-30T05:56:00.714Z'
