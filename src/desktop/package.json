@@ -149,7 +149,7 @@
     "babel-polyfill": "6.26.0",
     "classnames": "2.2.6",
     "electron-settings": "3.2.0",
-    "electron-updater": "4.0.6",
+    "electron-updater": "6.3.0",
     "entangled-node": "rihardsgravis/entangled-node#73ccd5e",
     "hw-app-iota": "0.6.1",
     "i18next": "15.1.1",
